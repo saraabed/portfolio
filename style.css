@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+/* stlying the header */
+header{
+    background-color: rgb(115, 7, 148);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px}
+
+    .logo{
+        text-decoration: none;
+        color: rgb(206, 196, 207);
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 1.8em; 
+        /* relative by defult عشان يصير تناسق  */
+
+
+    }
+    .navigation a{
+        color: rgb(206, 196, 207);
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 500;
+        padding-left: 30px;
+
+    }
+    .navigation a:hover{
+        color: blueviolet;
+
+    }
+    section{
+        padding: 100px 200px;
+    }
+    .main{
+        width: 100%;
+        min-height: 100vh; 
+        /* ممكن الchild يزيد حجمها او يقل بس اقل اشي 100
+     */
+     display: flex;
+     align-items: center;
+     background: url(pics/FullStackDevelopmentCompany.jpg) no-repeat;
+     background-size: cover;
+     /* عشان تضل كاملة جوا الكونتر  */
+background-position: center; 
+background-attachment: fixed;  
+/* عشان الصورة لما انزل بالصفحة تضل ثابتة  */
+    } 
+
+    .main h2{
+color: rgb(242, 240, 255);
+font-size: x-large;
+font-size: 1.4em;
+font-weight: 500;
+
+    }
+    .main h2 span{
+        display:inline-block;
+        margin-top: 10px;
+color: rgb(243, 240, 255);
+font-size: 3em;
+font-weight: 900;
+
+
+    }
+    .main-btn {
+        text-decoration: none;
+        color: aliceblue;
+        background-color: rgb(211, 43, 226);
+        text-decoration: none;
+        font-size: 1.1em;
+        font-weight: 600;
+        display:inline-block ;
+        padding: 15px 30px;
+        letter-spacing: 1px;
+        margin-bottom: 40px;
+        border-radius: 15px;
+
+    }
+    .main-btn:hover{
+        background-color: blueviolet;
+        transform: scale(1.1);
+
+    }
+    .sociol_icon a{
+        color: antiquewhite;
+        font-size: 1.8em;
+        padding-right: 40px;
+        background-color: blueviolet;
+        display: inline-block;
+        padding: 15px 30px;
+        border-radius: 15px;
+    }
+    .title{
+        display: flex;
+        justify-content: center;
+        color: blueviolet;
+        font-size: 3em;
+        font-weight: 800;
+        margin-bottom: 30px;
+
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        /* عشان تيجي بالعرض */
+        
+
+    }
+    .card{
+        background-color:rgb(197, 86, 225);
+        width: 400px;
+        border-radius: 10px;
+        padding:25px;
+        margin: 15px;
+    }
+    .card:hover{
+        transform:scale(1.1) ;
+
+    }
+.icon{
+    color: rgb(119, 116, 116);
+    font-size: 130px;
+    text-align: center;
+}
+.information h3{
+    font: 700;
+    margin: 10px;
+    text-align: center;
+
+}
+.information{
+    text-align: center;
+
+}
+.projects{
+     background-color: blueviolet;
+
+}
+.projects .content{
+    margin-top: 30px;
+
+}
+.projects-card{
+    background-color: aliceblue;
+    border: 6px solid black;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7 ease;
+
+}
+.projects-card:hover{
+    transform: scale(1.1);
+
+}
+.project-image img{
+    width: 100%;
+     
+}
+.projectinformation{
+    padding: 16px;
+
+}
+.projectt{
+    color: black;
+
+}
+.project title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}  
+
+.title .h2{
+    text-align: center;
+
+}
