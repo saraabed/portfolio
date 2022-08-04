@@ -123,7 +123,7 @@ font-weight: 900;
     }
     .card{
         background-color:rgb(197, 86, 225);
-        width: 400px;
+        width: 200px;
         border-radius: 10px;
         padding:25px;
         margin: 15px;
@@ -162,7 +162,7 @@ font-weight: 900;
     transition: 0.7s ease;
     margin: 2px;
     width: 300px;
-    height: 500px;
+    height: 400px;
 
 }
 .projects-card:hover{
@@ -238,5 +238,4 @@ font-weight: 900;
         }
     }
     
-
 
